@@ -1,3 +1,3 @@
 # Polyglot
 
-A description of this package.
+Integrate Polyglot into your app, and make your app a polygot too.
