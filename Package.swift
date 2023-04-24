@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: name,
             url: "https://github.com/Packiaseelan/Polyglot/releases/download/\(version)/\(name).xcframework.zip",
-            checksum: "8fadb40a55debb562a13bf7cf1f6d11663cf4291d63d18f3a0a947bacabe0941"
+            checksum: "7247043bf688ca83c82ed84754c2f7a91bcb2a7b12e45e39927fa7779bca8e3d"
         ),
 //        .binaryTarget(name: name, path: "../../../output/\(name).xcframework")
     ]
