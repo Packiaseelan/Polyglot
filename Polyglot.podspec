@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.license                  = { :type => "Copyright", :text => "Copyright (c) 2023 HexCreators, Inc. (https://www.hypertrack.com)" }
     spec.homepage                 = "https://hexcreators.com"
     spec.author                   = { "HexCreators" => "author@hexcreators.com" }
-    spec.source                   = { :http => "https://github.com/Packiaseelan/Polyglot/releases/download/#{spec.version}/Polyglot.xcframework.zip" }
+    spec.source                   = { :http => "https://github.com/Packiaseelan/Polyglot/releases/download/#{spec.version}/cocoapods.zip" }
     spec.swift_version            = "5.1"
     spec.cocoapods_version        = '>= 1.10.0'
 
