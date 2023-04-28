@@ -5,19 +5,18 @@ import PackageDescription
 
 let name = "Polyglot"
 let version = "V1.0.0"
+let url = "https://github.com/Packiaseelan/Polyglot/releases/download/\(version)/\(name).xcframework.zip"
+let checksum = "31bda402995af34e00801316f01db5b32c754356d67b24296bdb6be04dec97c9"
 
 let package = Package(
-    name: "Polyglot",
+    name: name,
     products: [
         .library(name: name, targets: [name]),
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(
-            name: name,
-            url: "https://github.com/Packiaseelan/Polyglot/releases/download/\(version)/\(name).xcframework.zip",
-            checksum: "1d07ed5924983048c2942bd96302eef7592178c8d0981ec60c21c92cd35ae0e0"
-        ),
-//        .binaryTarget(name: name, path: "../../../output/\(name).xcframework")
-    ]
+        .binaryTarget(name: name, url: url, checksum: checksum),
+//        .binaryTarget(name: name, path: "../output/\(name).xcframework")
+    ],
+    swiftLanguageVersions: [.v5]
 )
