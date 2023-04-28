@@ -6,7 +6,7 @@ import PackageDescription
 let name = "Polyglot"
 let version = "V1.0.0"
 let url = "https://github.com/Packiaseelan/Polyglot/releases/download/\(version)/\(name).xcframework.zip"
-let checksum = "65d754359abb61f957190232f852edafa1ac6c2a3faea3f2eb48dbc0faade3d5"
+let checksum = "6f91a64f11bab2204da0a7c566c2ed4568ada098591e0f894cb6eeef50ac0e2d"
 
 let package = Package(
     name: name,
